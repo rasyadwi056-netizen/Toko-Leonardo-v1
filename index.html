@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top-Up Leonardo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="logo-saya.png" alt="Logo Top-Up Leonardo" class="logo">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Top-Up</a>
+            <a href="#">History</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Top-Up Leonardo</h1>
+        <p>Cepat, aman, dan mudah.</p>
+        <img src="banner.png" alt="Banner Game" class="banner">
+        <!-- Coins Animasi -->
+        <div class="coins-container">
+            <span class="coin">💰</span>
+            <span class="coin">💎</span>
+            <span class="coin">🪙</span>
+            <span class="coin">💰</span>
+            <span class="coin">💎</span>
+            <span class="coin">🪙</span>
+        </div>
+    </section>
+
+    <!-- Top-Up Form -->
+    <section class="topup-form">
+        <h2>Form Top-Up</h2>
+        <form id="topupForm">
+            <label>Game / Layanan</label>
+            <select required>
+                <option value="">Pilih Game</option>
+                <option value="game1">Game 1</option>
+                <option value="game2">Game 2</option>
+            </select>
+
+            <label>Username / ID</label>
+            <input type="text" placeholder="Masukkan ID" required>
+
+            <label>Nominal Top-Up</label>
+            <select required>
+                <option value="">Pilih Nominal</option>
+                <option value="50">50 Coins</option>
+                <option value="100">100 Coins</option>
+                <option value="200">200 Coins</option>
+            </select>
+
+            <button type="submit" class="btn">Top-Up Sekarang</button>
+        </form>
+        <p id="successMsg" class="success-msg"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Top-Up Leonardo. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
